@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EFDatabaseFirts</name>
+    </assembly>
+    <members>
+        <member name="T:EFDatabaseFirts.Controllers.CadastroController">
+            <summary>
+            Métodos para gerenciar os Cadastros
+            </summary>
+        </member>
+        <member name="M:EFDatabaseFirts.Controllers.CadastroController.Get">
+            <summary>
+            Método para visualizar todos os Cadastros
+            </summary>
+            <returns>Uma lista com todos os cadastros</returns>
+        </member>
+        <member name="M:EFDatabaseFirts.Controllers.CadastroController.Get(System.Int32)">
+            <summary>
+            Método que mostra somente um Cadastro específico
+            </summary>
+            <param name="id">Id do Cadastro</param>
+            <returns>Um cadastro específico</returns>
+        </member>
+        <member name="M:EFDatabaseFirts.Controllers.CadastroController.Put(System.Int64,EFDatabaseFirts.Models.Cadastro)">
+            <summary>
+            Método para atualizar o Cadastro
+            </summary>
+            <param name="id">Id para ser atualizado</param>
+            <param name="cadastro">Objeto completo do Cadastro</param>
+            <returns>Sem conteúdo, código 204</returns>
+        </member>
+        <member name="M:EFDatabaseFirts.Controllers.CadastroController.Delete(System.Int32)">
+            <summary>
+            Método para excluir um cadastro
+            </summary>
+            <param name="id">Id para ser sxcluído</param>
+            <returns>O Objeto que foi excluído</returns>
+        </member>
+    </members>
+</doc>
